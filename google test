@@ -10,3 +10,7 @@ for i in range(9999):
     s += str(i)
 
 s.count('8')
+
+# 또는
+
+str(list(range(1, 9999))).count('8')
